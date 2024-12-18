@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دیجی‌کالا</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+       
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f5f5f5;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+      
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            color: red;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+            font-size: 1rem;
+        }
+
+        .search-bar i {
+            position: relative;
+            left: -35px;
+            color: #888;
+        }
+
+        .user-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .user-actions a {
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+       
+        nav {
+            background-color: white;
+            display: flex;
+            padding: 10px 20px;
+            overflow-x: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            padding: 8px 15px;
+            white-space: nowrap;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        
+        .banner {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .banner img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+       
+        .amazing-section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .amazing-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: red;
+            margin-bottom: 10px;
+        }
+
+        .slider {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+
+        .slider-item {
+            flex: 0 0 150px;
+            text-align: center;
+        }
+
+        .slider-item img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        
+
+        .banner-small {
+            display: flex;
+            gap: 10px;
+            margin: 20px;
+        }
+
+        .banner-small img {
+            flex: 1;
+            border-radius: 10px;
+            max-height: 150px;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+        }
+        .slider-item p{
+            padding: 8px;
+            border: #888;
+            border-radius: 10px;
+            box-shadow: #333;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">دیجی‌کالا</div>
+        <div class="search-bar">
+            <input type="text" placeholder="جستجو در دیجی‌کالا...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="user-actions">
+            <a href="#">ورود</a>
+            <a href="#">ثبت‌نام</a>
+        </div>
+    </header>
+
+    
+    <nav>
+        <a href="#">موبایل</a>
+        <a href="#">دیجیتال</a>
+        <a href="#">مد و پوشاک</a>
+        <a href="#">خانه و آشپزخانه</a>
+        <a href="#">کتاب و لوازم تحریر</a>
+        <a href="#">ورزش و سفر</a>
+        <a href="#">ابزارآلات</a>
+        <a href="#">خودرو و موتورسیکلت</a>
+        <a href="#">کودک و نوزاد</a>
+        <a href="#">سوپرمارکت</a>
+        <a href="#">بیشتر...</a>
+    </nav>
+
+    
+    <section class="banner">
+        <img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/6ad1e6d83597368f635780caf9b36bb1c8b94fe9_1734347424.jpg?x-oss-process=image/quality,q_95/format,webp" alt="بنر تبلیغاتی">
+    </section>
+
+    
+    <section class="amazing-section">
+        <div class="amazing-title">پیشنهاد شگفت‌انگیز</div>
+        <div class="slider">
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/6be720f39751ec93b781393de087bf8b3a5067c8_1733060916.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 1">
+                <p> لپ تاپ اچ پی</p>
+                <p class="price">قیمت :۵۴۰۰۰۰ تومان</p>
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/0345030aeb956a1435ac7701e74b6abc32d8da3a_1718771105.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 2">
+                <p> ساعت هوشمند</p>
+                <p class="price">قیمت :۱۲۳۰۰۰ تومان</p>
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/99037a98368d501d2667be99c008ce8ca245830c_1724767662.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 3">
+                <p> لامپ ال ای دی</p>
+                <p class="price">قیمت :۱۵۰۰۰۰ تومان</p>
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/962c5895153b024b53953d084f362ab2ddfc730c_1646033456.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 4">
+                <p> ویتامینc</p>
+                <p class="price">قیمت :۳۸۰۰۰ تومان</p>
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/4896aa93031d22177959dfea02dfb7ddb30c3ddb_1595426056.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 4">
+                <p> هدفون بلوتوثی تسکو</p>
+                <p class="price">قیمت :۱۵۵۷۰۰۰ تومان</p>
+                
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/1c62e7ddec59c430763a9fd13bedd0e4b5f5ae48_1707744874.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 4">
+               
+                <p> اسپیکر بلوتوثی </p>
+                <p class="price">قیمت :۲۳۰۰۰۰۰ تومان</p>
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/4292740.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 4">
+                <p>ریسه ال ای دی</p>
+                <p class="price">قیمت :۳۰۰۰۰۰ تومان</p>
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/16aad3470f0189a2e0723b879da4b8d69203b424_1713188546.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 4">
+                <p> هدفون بلوتوثی تسکو</p>
+                <p class="price">قیمت :۱۵۵۷۰۰۰ تومان</p>
+            </div>
+            <div class="slider-item">
+                <img src="https://dkstatics-public.digikala.com/digikala-products/a588048c2ce970806532b5a2b384f63709b9bf0c_1730973124.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="محصول 4">
+                <p>اسباب بازی </p>
+                <p class="price">قیمت :۱۱۰۰۰۰۰ تومان</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="banner-small">
+        <img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/379cd7eda21ddf9a7a9384c822abffa3b943a6a2_1733922638.jpg?x-oss-process=image/quality,q_95/format,webp" alt="بنر کوچک 1">
+        <img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/545feee20fc43d07117bea7f0ac3f002dab4b8b4_1734183894.jpg?x-oss-process=image/quality,q_95/format,webp" alt="بنر کوچک 2">
+    </section>
+
+    
+    <footer>
+        © 2024 دیجی‌کالا | تمامی حقوق محفوظ است.
+    </footer>
+</body>
+</html>
+
+
+
+
+
